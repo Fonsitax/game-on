@@ -1,0 +1,45 @@
+* {font-family: monospace;
+
+}
+
+body{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    border-style: dashed;
+    margin: 20px 500px 20px;
+    padding: 60px;
+    
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button{
+    min-width: 200px;
+    margin: 0 10px;
+    font-size: 7.5rem;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yourDisplay, #computerDisplay{
+    font-size: 2rem;
+}
+#resultDisplay{
+    font-size: 3rem;
+}
+.scoreDisplay {
+    font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+.redText, #computerScoreDisplay {
+    color: red;
+}
