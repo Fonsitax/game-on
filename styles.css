@@ -15,17 +15,16 @@ body{
     
 }
 
-.choices {
-    margin-bottom: 30px;
+.vs-emoji {
+    font-size: xx-large;
 }
 
-.choices button{
-    min-width: 200px;
-    margin: 0 10px;
-    font-size: 7.5rem;
-    padding: 20px 40px;
-    border-radius: 10px;
-    cursor: pointer;
+
+.custon-button{
+    width: 60px;
+    height: 60px;
+    font-size: xx-large;
+    border-radius: 100px;
 }
 
 #yourDisplay, #computerDisplay{
